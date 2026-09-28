@@ -6,7 +6,7 @@
 
 | 项目 | 简介 | 技术栈 | 状态 | 日期 |
 | --- | --- | --- | --- | --- |
-| 暂无 | 新项目完成后在这里登记 | - | 待开始 | - |
+| [交互式个人简历](projects/2026-09-28-interactive-resume/) | 动画封面、互动卡片、信封时间线与响应式详情页 | HTML / CSS / JavaScript | Iterating · [在线演示](https://lixinxin-portfolio.xinxinli087.chatgpt.site/) | 2026-09-28 |
 
 ## 项目结构
 

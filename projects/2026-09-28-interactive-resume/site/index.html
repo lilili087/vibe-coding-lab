@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8f6f1"><meta name="description" content="李新新的个人简历：实习经历、项目经历、校园经历与奖项荣誉。">
+<title>李新新 · 个人简历</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23c9000a'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-size='23' font-weight='bold' fill='white'%3E新%3C/text%3E%3C/svg%3E">
+<link rel="preload" as="image" href="assets/00.webp"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+ <h1 class="sr-only">李新新 · 个人介绍</h1>
+ <section class="stage" aria-label="个人简历封面">
+  <img class="cover" src="assets/00.webp" width="1672" height="941" alt="李新新 ABOUT 个人介绍。爱好：摄影、游泳、羽毛球。" fetchpriority="high">
+  <div id="states" aria-hidden="true"></div>
+  <video id="intro" muted playsinline webkit-playsinline preload="metadata" poster="assets/00.webp" aria-label="人物打招呼开场动画" hidden><source src="assets/intro.mp4" type="video/mp4"></video>
+  <nav class="hotspots" aria-label="简历栏目">
+   <button class="hotspot h1" data-section="1" aria-label="打开实习经历" aria-haspopup="dialog"></button>
+   <button class="hotspot h2" data-section="2" aria-label="打开项目经历" aria-haspopup="dialog"></button>
+   <button class="hotspot h3" data-section="3" aria-label="打开校园经历" aria-haspopup="dialog"></button>
+   <button class="hotspot h4" data-section="4" aria-label="打开奖项荣誉" aria-haspopup="dialog"></button>
+  </nav>
+  <button id="skip" class="skip" hidden>跳过开场</button>
+  <footer class="controls" aria-label="播放与分享"><button id="replay">↻ 重新播放</button><label><input type="checkbox" id="reduce">减少动态效果</label><button id="share">↗ 分享网站</button></footer>
+ </section>
+</main>
+<dialog id="details" aria-labelledby="detail-title"><header class="dialog-head"><div><span id="detail-en"></span><h2 id="detail-title"></h2></div><button id="close" aria-label="关闭详情">✕</button></header><div id="detail-body" class="detail-body"></div></dialog>
+<dialog id="share-dialog" aria-labelledby="share-title"><header class="dialog-head"><h2 id="share-title">分享网站链接</h2><button id="close-share" aria-label="关闭分享">✕</button></header><div class="share-body"><label for="share-url">网站链接</label><input id="share-url" readonly><button id="copy-url">复制链接</button><p id="share-message" role="status"></p></div></dialog>
+<div class="toast" id="toast" role="status" hidden></div>
+<script src="content.js"></script><script src="experience.js"></script><script src="campus.js"></script><script src="app.js"></script>
+</body></html>
